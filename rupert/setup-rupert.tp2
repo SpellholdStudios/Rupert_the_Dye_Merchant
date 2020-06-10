@@ -25,53 +25,53 @@ BEGIN @0
 
 COPY ~rupert/bams~ ~override~
 
-COPY ~rupert/large~ ~override~
+COPY ~rupert/itm/large~ ~override~
   SAY NAME1 @1
   SAY NAME2 @2
   SAY DESC @3
 
-COPY ~rupert/small~ ~override~
+COPY ~rupert/itm/small~ ~override~
   SAY NAME1 @4 
   SAY NAME2 @5
   SAY DESC @6
 
-COPY ~rupert/leather~ ~override~
+COPY ~rupert/itm/leather~ ~override~
   SAY NAME1 @7
   SAY NAME2 @8
   SAY DESC @9
 
-COPY ~rupert/armour~ ~override~
+COPY ~rupert/itm/armour~ ~override~
   SAY NAME1 @10
   SAY NAME2 @11
   SAY DESC @12
 
-COPY ~rupert/buckle~ ~override~
+COPY ~rupert/itm/buckle~ ~override~
   SAY NAME1 @13
   SAY NAME2 @14
   SAY DESC @15
 
-COPY ~rupert/hair~ ~override~
+COPY ~rupert/itm/hair~ ~override~
   SAY NAME1 @16
   SAY NAME2 @17
   SAY DESC @18
 
 
-COPY ~rupert/clothes/JL#CMAGE.itm~ ~override~
+COPY ~rupert/itm/clothes/jl#cmage.itm~ ~override~
   SAY NAME1 @28
   SAY NAME2 @28
   SAY DESC @29
 
-COPY ~rupert/clothes/JL#CFGTR.itm~ ~override~
+COPY ~rupert/itm/clothes/jl#cfgtr.itm~ ~override~
   SAY NAME1 @30
   SAY NAME2 @30
   SAY DESC @31
 
-COPY ~rupert/clothes/JL#CCLRC.itm~ ~override~
+COPY ~rupert/itm/clothes/jl#cclrc.itm~ ~override~
   SAY NAME1 @32
   SAY NAME2 @32
   SAY DESC @33
 
-COPY ~rupert/clothes/JL#CTHIF.itm~ ~override~
+COPY ~rupert/itm/clothes/jl#cthif.itm~ ~override~
   SAY NAME1 @34
   SAY NAME2 @34
   SAY DESC @35
@@ -79,75 +79,75 @@ COPY ~rupert/clothes/JL#CTHIF.itm~ ~override~
 
 // Should be TuTu only
 ACTION_IF FILE_EXISTS_IN_GAME ~FW2302.are~ THEN BEGIN
-  COPY ~rupert/rupert/JL#RUPRT.cre~ ~override~
+  COPY ~rupert/cre/jl#ruprt.cre~ ~override~
   SAY NAME1 @19
   SAY NAME2 @19
-  COMPILE ~rupert/rupert/JL#RUPRT.d~
-  EXTEND_TOP ~_AR2302.bcs~ ~rupert/rupert/JL#RUPRT.baf~  // FAI floor 2
+  COMPILE ~rupert/dlg/jl#ruprt.d~
+  EXTEND_TOP ~_AR2302.bcs~ ~rupert/script/jl#ruprt.baf~  // FAI floor 2
 END
 
 // Should be BGT only
 ACTION_IF FILE_EXISTS_IN_GAME ~AR6800.are~ THEN BEGIN
-  COPY ~rupert/rupert/JL#RUPRT.cre~ ~override~
+  COPY ~rupert/cre/jl#ruprt.cre~ ~override~
   SAY NAME1 @19
   SAY NAME2 @19
-  COMPILE ~rupert/rupert/JL#RUPRT.d~
-  EXTEND_TOP ~AR6800.bcs~ ~rupert/rupert/JL#RUPRT.baf~  // FAI floor 2 (HAX!)
+  COMPILE ~rupert/dlg/jl#ruprt.d~
+  EXTEND_TOP ~AR6800.bcs~ ~rupert/script/jl#ruprt.baf~  // FAI floor 2 (HAX!)
 END
 
 // Should be regular BG2
 ACTION_IF FILE_EXISTS_IN_GAME ~AR0704.are~ THEN BEGIN
-  COPY ~rupert/rupert/JL#RUPRT.cre~ ~override/JL#RUPR2.cre~
+  COPY ~rupert/cre/jl#ruprt.cre~ ~override/jl#rupr2.cre~
   SAY NAME1 @19
   SAY NAME2 @19
   WRITE_ASCII DIALOG ~JL#RUPR2~
-  COMPILE ~rupert/rupert/JL#RUPR2.d~
-  EXTEND_TOP ~AR0704.bcs~ ~rupert/rupert/JL#RUPR2.baf~ // Mithrest inn
-  EXTEND_TOP ~edwin.bcs~ ~rupert/rupert/edwin.baf~ // Check if Edwin was a girl
+  COMPILE ~rupert/dlg/jl#rupr2.d~
+  EXTEND_TOP ~AR0704.bcs~ ~rupert/script/jl#rupr2.baf~ // Mithrest inn
+  EXTEND_TOP ~edwin.bcs~ ~rupert/script/edwin.baf~ // Check if Edwin was a girl
 END
 
 // Should be ToB
 ACTION_IF FILE_EXISTS_IN_GAME ~AR5003.are~ THEN BEGIN
-  COPY ~rupert/rupert/JL#RUPRT.cre~ ~override/JL#RUPR3.cre~
+  COPY ~rupert/cre/jl#ruprt.cre~ ~override/jl#rupr3.cre~
   SAY NAME1 @19
   SAY NAME2 @19
   WRITE_ASCII DIALOG ~JL#RUPR3~
-  COMPILE ~rupert/rupert/JL#RUPR3.d~
-  EXTEND_TOP ~AR5003.bcs~ ~rupert/rupert/JL#RUPR3.baf~  // Saradush inn
+  COMPILE ~rupert/dlg/jl#rupr3.d~
+  EXTEND_TOP ~AR5003.bcs~ ~rupert/script/jl#rupr3.baf~  // Saradush inn
 
-  COPY ~rupert/rupert/JL#RUPR4.cre~ ~override/JL#RUPR4.cre~
+  COPY ~rupert/cre/jl#rupr4.cre~ ~override/jl#rupr4.cre~
   SAY NAME1 @20
   SAY NAME2 @20
   WRITE_ASCII DIALOG ~JL#RUPR4~
-  COMPILE ~rupert/rupert/JL#RUPR4.d~
-  EXTEND_TOP ~AR5500.bcs~ ~rupert/rupert/JL#RUPR4.baf~ // Amkethran (HAX!)
+  COMPILE ~rupert/dlg/jl#rupr4.d~
+  EXTEND_TOP ~AR5500.bcs~ ~rupert/script/jl#rupr4.baf~ // Amkethran (HAX!)
 END
 
 
-  COMPILE ~rupert/rupert/JL#RCCLR.baf~
-          ~rupert/rupert/JL#RCFTR.baf~
-          ~rupert/rupert/JL#RCMAG.baf~
-          ~rupert/rupert/JL#RCTHF.baf~
+  COMPILE ~rupert/baf/jl#rcclr.baf~
+          ~rupert/baf/jl#rcftr.baf~
+          ~rupert/baf/jl#rcmag.baf~
+          ~rupert/baf/jl#rcthf.baf~
 
-  COPY ~rupert/rupert/JL#RCCLR.eff~ ~override~
-       ~rupert/rupert/JL#RCFTR.eff~ ~override~
-       ~rupert/rupert/JL#RCMAG.eff~ ~override~
-       ~rupert/rupert/JL#RCTHF.eff~ ~override~
+  COPY ~rupert/eff/jl#rcclr.eff~ ~override~
+       ~rupert/eff/jl#rcftr.eff~ ~override~
+       ~rupert/eff/jl#rcmag.eff~ ~override~
+       ~rupert/eff/jl#rcthf.eff~ ~override~
 
-  COPY ~rupert/rupert/CUTSPY.cre~ ~override/JL#RCCLR.cre~
+  COPY ~rupert/cre/cutspy.cre~ ~override/jl#rcclr.cre~
   WRITE_ASCII 0x248 ~JL#RCCLR~ #8
 
-  COPY ~rupert/rupert/CUTSPY.cre~ ~override/JL#RCFTR.cre~
+  COPY ~rupert/cre/cutspy.cre~ ~override/jl#rcftr.cre~
   WRITE_ASCII 0x248 ~JL#RCFTR~ #8
 
-  COPY ~rupert/rupert/CUTSPY.cre~ ~override/JL#RCMAG.cre~
+  COPY ~rupert/cre/cutspy.cre~ ~override/jl#rcmag.cre~
   WRITE_ASCII 0x248 ~JL#RCMAG~ #8
 
-  COPY ~rupert/rupert/CUTSPY.cre~ ~override/JL#RCTHF.cre~
+  COPY ~rupert/cre/cutspy.cre~ ~override/jl#rcthf.cre~
   WRITE_ASCII 0x248 ~JL#RCTHF~ #8
 
 
-COPY ~rupert/rupert/JL#RUPRT.STO~ ~override/JL#RUP_A.STO~
+COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_a.sto~
 SAY STORE_NAME @21
 ADD_STORE_ITEM ~JL#PA115~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~JL#PA114~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
@@ -267,7 +267,7 @@ ADD_STORE_ITEM ~JL#PA001~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~JL#PA000~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 
 
-COPY ~rupert/rupert/JL#RUPRT.STO~ ~override/JL#RUP_B.STO~
+COPY ~rupert/sto/jl#ruprt.sto~ ~override/JL#RUP_B.sto~
 SAY STORE_NAME @22
 ADD_STORE_ITEM ~JL#PB115~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~JL#PB114~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
@@ -388,7 +388,7 @@ ADD_STORE_ITEM ~JL#PB000~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 
 
 
-COPY ~rupert/rupert/JL#RUPRT.STO~ ~override/JL#RUP_C.STO~
+COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_c.sto~
 SAY STORE_NAME @23
 ADD_STORE_ITEM ~JL#PC115~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~JL#PC114~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
@@ -509,7 +509,7 @@ ADD_STORE_ITEM ~JL#PC000~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 
 
 
-COPY ~rupert/rupert/JL#RUPRT.STO~ ~override/JL#RUP_D.STO~
+COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_d.sto~
 SAY STORE_NAME @24
 ADD_STORE_ITEM ~JL#PD115~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~JL#PD114~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
@@ -631,7 +631,7 @@ ADD_STORE_ITEM ~JL#PD000~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 
 
 
-COPY ~rupert/rupert/JL#RUPRT.STO~ ~override/JL#RUP_E.STO~
+COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_e.sto~
 SAY STORE_NAME @25
 ADD_STORE_ITEM ~JL#PE115~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~JL#PE114~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
@@ -752,7 +752,7 @@ ADD_STORE_ITEM ~JL#PE000~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 
 
 
-COPY ~rupert/rupert/JL#RUPRT.STO~ ~override/JL#RUP_F.STO~
+COPY ~rupert/sto/Jl#ruprt.sto~ ~override/jl#rup_f.sto~
 SAY STORE_NAME @26
 ADD_STORE_ITEM ~JL#PF115~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~JL#PF114~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
@@ -873,7 +873,7 @@ ADD_STORE_ITEM ~JL#PF000~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 
 
 
-COPY ~rupert/rupert/JL#RUPRT.STO~ ~override/JL#RUP_G.STO~
+COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_g.sto~
 SAY STORE_NAME @27
 ADD_STORE_ITEM ~JL#CTHIF~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 ADD_STORE_ITEM ~JL#CFGTR~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
