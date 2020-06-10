@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
-<div align="center"><h1></a>Rupert the Dye Merchant</h1>
+<div align="center"><h1></a>Rupert the Dye Merchant (WIP)</h1>
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II (classical and EE games),
 Baldur's Gate Trilogy and EET<h3>
@@ -41,6 +41,7 @@ Baldur's Gate Trilogy and EET<h3>
 ##### Version 3.0.0 (June ??, 2020)
 
 - Added `HANDLE_CHARSETS` function to convert string entries for EE games.
+- Included BWP Fixpack patch: fixed wrong header icons.
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
 - Lower cased files.
