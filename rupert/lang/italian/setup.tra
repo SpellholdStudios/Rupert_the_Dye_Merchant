@@ -1,0 +1,44 @@
+@0    = ~Rupert il Mercante di Tinte (per BG2 o TuTu/BGT)~
+@1    = ~Colorante per abito - grande~
+@2    = ~Bottiglia grande per colorare i vestiti~
+@3    = ~Questa bottiglia contiene del colorante incantato che può essere usato per cambiare il colore della maggior parte dei vestiti. Il contenuto di questa grande bottiglia avrà effetto sul colore principale dell'abito indossato. Il cambiamento è permanente.~
+@4    = ~Colorante per abito - piccolo~
+@5    = ~Bottiglia piccola per colorare i vestiti~
+@6    = ~Questa bottiglia contiene del colorante incantato che può essere usato per cambiare il colore della maggior parte dei vestiti. Il contenuto di questa piccola bottiglia avrà effetto sul colore secondario dell'abito indossato. Il cambiamento è permanente.~
+@7    = ~Colorante per il cuoio~
+@8    = ~Bottiglia per colorare il cuoio~
+@9    = ~Questa bottiglia contiene del colorante incantato che può essere usato per cambiare il colore della maggior parte del cuoio. Il contenuto di questa piccola bottiglia avrà effetto tanto sugli stivali quanto sulle strisce delle armature, sulla maggior parte degli abiti dei maghi ed altri vari abbigliamenti. Il cambiamento è permanente.~
+@10   = ~Colorante per armatura~
+@11   = ~Bottiglia grande di colore~
+@12   = ~Questa bottiglia contiene del colorante incantato che può essere usato per cambiare il colore della maggior parte delle armature. Il contenuto di questa grande bottiglia avrà effetto sia sulle armature ordinarie che sulla maggior parte dei colori principali degli abiti da mago. Il cambiamento è permanente.~
+@13   = ~Colorante per i dettagli~
+@14   = ~Bottiglia piccola di colore~
+@15   = ~Questa bottiglia contiene del colorante incantato che può essere usato per cambiare il colore di piccoli oggetti decorativi. Il contenuto di questa piccola bottiglia avrà effetto sugli oggetti come cinture, fibbie e amuleti. Il cambiamento è permanente.~
+@16   = ~Colorante per capelli~
+@17   = ~Bottiglia di colorante per capelli~
+@18   = ~Questa bottiglia contiene del colorante incantato. Cambierà in modo permanente il colore dei capelli di chi la usa.~
+@19   = ~Rupert~
+@20   = ~Signorina Claire Awl~
+@21   = ~Coloranti di Rupert - per Tessuti (grande)~
+@22   = ~Coloranti di Rupert - per Tessuti (piccole)~
+@23   = ~Coloranti di Rupert - per il Cuoio~
+@24   = ~Coloranti di Rupert - per l'Armatura~
+@25   = ~Coloranti di Rupert - per i Dettagli~
+@26   = ~Coloranti di Rupert - per Capelli~
+@27	= ~Equipaggiamento di Rupert~
+@28	= ~Veste dell'Arcanista~
+@29	= ~E' un tipo di veste molto gradita dai maghi e dagli stregoni ovunque nei i reami. Possiede molteplici tasche dedicate alle ricette per creare formule magiche e delle cuciture speciali per fare i movimenti senza interferire con il lancio degli incantesimi.
+
+Per utilizzare questo oggetto, piazzarlo in uno slot per gli oggetti veloci.~
+@30	= ~Abito del Combattente~
+@31	= ~Semplice abito, dal tessuto robusto, fatto per resistere a qualsiasi maltrattamento. La scelta di questo tipo di vestito è indicata per coloro che lavorano faticosamente, e sono inclini a sporcarsi. Lo spesso materiale aiuta anche a prevenire le irritazioni da qualsiasi armatura si indossi sopra.
+
+Per utilizzare questo oggetto, piazzarlo in uno slot per gli oggetti veloci.~
+@32	= ~Abito del Chierico~
+@33	= ~Un umile indumento approvato da sette chierici su dieci. Per una somma irrisoria può essere appositamente rinforzato sulle ginocchia per le lunghe sessioni di preghiera dei chierici.
+
+Per utilizzare questo oggetto, piazzarlo in uno slot per gli oggetti veloci.~
+@34	= ~Vestito del Vagabondo~
+@35	= ~E un vestito semplice, particolare e attillato. Fatto appositamente per non limitare i movimenti di colui che lo indossa poiché minimizza il rumore ed il rischio di rimanere impigliato su oggetti o frammenti che sporgono. Questo abito è tanto popolare tra gli spacconi e gli esploratori, quanto tra i loschi personaggi.
+
+Per utilizzare questo oggetto, piazzarlo in uno slot per gli oggetti veloci.~

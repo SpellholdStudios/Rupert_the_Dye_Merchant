@@ -1,0 +1,10 @@
+IF
+AreaCheck("AR0704")
+Global("JL#RupertBG2Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("JL#RupertBG2Spawn","GLOBAL",1)
+CreateCreature("JL#RUPR2",[357.460],14)
+Continue()
+END
+

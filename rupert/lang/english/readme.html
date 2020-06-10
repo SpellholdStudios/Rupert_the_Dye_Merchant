@@ -1,0 +1,499 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background-color: #dbdbe3;
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #081878;
+        border-top: 5px solid #081878;
+        border-bottom: 5px solid #081878;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e6e6e8;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #081878;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, upper-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #081878;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #d9d9de;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #081878;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+        font-size: 100%;
+        font-style: normal;
+        line-height: 150%;
+        padding: 0px;
+        margin: 10px auto;
+        width: 90%;
+        display: block;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #081878;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+        margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+        list-style-type: square;
+        line-height: 150%;
+      }
+      
+      #maindiv ol li {
+        line-height: 150%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e6e6e8;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        font-style: italic;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #081878;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    </style>
+  <title>Rupert the Dye Merchant</title>
+</head>
+
+<body>
+
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Rupert the Dye Merchant</h1>
+        <strong>A Vilkalizer&trade; brand mod (accept no substitutes!) for Baldur's Gate II, TuTu and/or BGT</strong>
+        <hr />
+        <p class="about">
+          <a href="http://www.shsforums.net/index.php?showtopic=24786">Mod Forum</a> &#8226;
+          Version: 2.1.1
+        </p>
+        <hr />
+        <p class="menu">
+          <a href="#intro">Introduction</a> &middot;
+          <a href="#installation">Installation</a> &middot;
+          <a href="#caution">Caution</a> &middot;
+          <a href="#notes">Notes</a> &middot;
+          <a href="#version">Version History</a> &middot;
+          <a href="#credits">Credits</a> &middot;
+          <a href="#license">License</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>Introduction</h2>
+		<p>This mod adds a new merchant who sells various dyes and new outfits. </p>
+
+		<p>Dyes work like potions. These can be used by anyone, and will permanently change the user's colours as specified by the particular dye: there are separate options for major and minor colours, leather (belts/boots/straps), armour, decorative items (like belt buckles/amulets) and hair. </p>
+
+		<p>Outfits will change the the character's appearance to match the specified class: fighter, mage, thief or cleric. (I strongly suggested that you also install everything from <a href="http://www.shsforums.net/index.php?showtopic=32952">1 Pixel Productions</a>.)</b> These can be used by anyone but monks (which would look wonky). Halflings have no mage avatars and will use the gnome mage avatar instead. Half-orcs have no mage paperdolls in the unmodded game, meaning you won't see your character on the inventory screen (unless you install the 1PP update, which adds one).</p>
+
+		<p>All changes are purely cosmetic; you do not gain or lose abilities by using anything bought from Rupert's stores. </p>
+
+		<p>Rupert should be fully compatible with Baldur's Gate II (with or without Throne of Bhaal), as well as BGT and BG TuTu. He will appear in the Mithrest Inn in regular BG2, as well as the inns in Saradush and Amkethran if you have Throne of Bhaal installed. In TuTu and BGT, he will appear in a room on the second floor of the Friendly Arm Inn (the second from the left on the top-left side of the screen).</p>
+
+
+          <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
+          <address>
+            <span class="footer">Rupert the Dye Merchant &gt; Introduction</span> &#8226;<a href="#top">Back to top</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Installation</h2>
+
+		<p>Simply unpack "rupert-v2_1_1.zip" to the folder where you have Baldur's Gate II installed. Unless you specify another location on install, that defaults to:</p>
+
+		<p>C:\Program Files\Black Isle\BGII - SoA\</p>
+
+		<p>Run "setup-rupert.exe" and follow the instructions on your screen.</p>
+
+		<p>To uninstall the mod, run the setup program again and follow the on-screen instructions.</p>
+
+
+          <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
+          <address>
+            <span class="footer">Rupert the Dye Merchant &gt; Installation</span> &#8226;<a href="#top">Back to top</a>
+          </address>
+        </div>
+
+        <!-- ================== C a u t i o n ================== -->
+        <a name="caution" id="caution"></a>
+        <div class="content">
+          <h2>Caution</h2>
+
+		<p>Since I have had a couple of crash reports, <b>I recommend saving before using dyes</b>. This is not a problem with the mod, but rather the game engine itself; unfortunately, this is not something that can be fixed. Which colours are affected, if any, seems to vary between installs.</p>
+
+		<p>Dyes add a permanent "set colour" effect to the user. This overrides the character's original colours, and you will no longer be able to switch major/minor colours on the inventory screen if you use dyes to change them. (Well, you <i>can</i>, it just doesn't <i>do</i> anything.) If you want to change back to your original colours, you will have to use another bottle of dye.</p>
+
+		<p>Dyes also override colours specified by armour or other gear. If you use a dye to turn your armour hot pink, <i>every</i> piece of armour that character wears in the future will be hot pink (unless you re-dye it).</p>
+
+		<p>It appears that the drow disguise in the Underdark cancels the effect of any dyes used on your characters. You can, however, return to the Mithrest Inn upon leaving the Underdark and re-stock on dyes. </p>
+
+          <address>
+            <span class="footer">Rupert the Dye Merchant &gt; Caution</span> &#8226;<a href="#top">Back to top</a>
+          </address>
+        </div>
+
+
+        <!-- ================== N o t e s ================== -->
+        <a name="notes" id="notes"></a>
+        <div class="content">
+          <h2>Notes</h2>
+
+		<p>To summon Rupert anywhere:</p>
+
+		<p>CLUAConsole:CreateCreature('JL#RUPRT')</p>
+
+		<p>This summons the regular BGT/TuTu version of Rupert. Use this if you're playing BG1.</p>
+
+		<p>CLUAConsole:CreateCreature('JL#RUPR2')</p>
+
+		<p>This summons the BGII: SoA version. Use this if you're playing BG2.</p>
+
+		<p>(The Saradush version is JL#RUPR3 and the one in Amkethran is JL#RUPR4. All of them sell the same items at the same prices.)</p>
+
+		<p>To create items without Rupert:</p>
+
+		<p>CLUAConsole:CreateItem('JL#P&¤¤¤')</p>
+
+		<p>Replace the & with an A for a dye for the major colour, B for minor colour, C for straps/boots/leather, D for armour, E for buckles/amulets, or F for hair.</p>
+
+		<p>¤¤¤ is the number of the colour gradient you want, from 000 to 115.</p>
+
+		<p>For example, JL#PF001 will create a brown dye that affects the user's hair, while JL#PA000 is slightly red-tinted black and will affect the character's major colour.</p>
+
+		<p>For a complete list of colour gradients, see the list at G3: <a href="http://iesdp.gibberlings3.net/appendices/colourgradients.htm">http://iesdp.gibberlings3.net/appendices/colourgradients.htm</a></P>
+
+<p>The codes for the outfits are JL#CCLRC (cleric), JL#CFGTR (fighter), JL#CMAGE (mage) and JL#CTHIF (thief).</p>
+
+          <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
+          <address>
+            <span class="footer">Rupert the Dye Merchant &gt; Notes</span> &#8226;<a href="#top">Back to top</a>
+          </address>
+        </div>
+
+
+        <!-- ================== V e r s i o n ================== -->
+        <a name="version" id="notes"></a>
+        <div class="content">
+          <h2>Version <span style="color:#081878">H</span>istory</h2>
+
+		<p>VERSION 2.1.1 (March 20 2010)<br>
+		- Added Italian translation by ilot.</p>
+		
+		<p>VERSION 2.1 (March 19 2010)<br>
+		- Added Spanish translation by Lisandro.<br>
+		- Fixed a gnome-related typo in the code.</p>
+		
+		<p>VERSION 2.0 (December 2009)<br>
+		- Added "outfits" to Rupert's store<br>
+		- Re-arranged dyes: lower numbers are now at the top, rather than the bottom.<br>
+		- English only so far.</p>
+		
+
+		<p>VERSION 1.1 (25 November 2009)<br>
+		- <a href="http://www.shsforums.net/index.php?s=&showtopic=24786&view=findpost&p=463770">Miloch's fixes</a><br>
+		- Traified the mod<br>
+		- Added German translation by Meresin<br>
+		- Changed to README-command<br>
+		- Added VERSION-flag<br>
+		- Updated to WeiDU v211</p>
+
+		<p>VERSION 1.0<br>
+		- First initial release</p>
+
+
+          <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
+          <address>
+            <span class="footer">Rupert the Dye Merchant &gt; Version History</span> &#8226;<a href="#top">Back to top</a>
+          </address>
+        </div>
+
+
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+          <h2>Credits</h2>
+
+		<p>This mod was created by <a href="http://www.shsforums.net/index.php?showuser=6209">vilkacis</a>.</p>
+
+		<p>Special thanks to <a href="http://www.shsforums.net/index.php?showuser=5803">Miloch</a> and <a href="http://www.shsforums.net/index.php?showuser=9003">Leomar</a> for help with bams, updating and... stuff. Y'know. Things.</p>
+
+          <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
+          <address>
+            <span class="footer">Rupert the Dye Merchant &gt; Credits</span> &#8226;<a href="#top">Back to top</a>
+          </address>
+        </div>
+
+
+
+        <!-- ================== L i c e n s e ================== -->
+        <a name="license" id="license"></a>
+        <div class="content">
+          <h2>License</h2>
+          <p>Public domain: no rights reserved. May be freely copied, edited and distributed. </p>
+
+          <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
+          <address>
+            <span class="footer">Rupert the Dye Merchant &gt; License</span> &#8226;<a href="#top">Back to top</a>
+          </address>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </body>
+</html>

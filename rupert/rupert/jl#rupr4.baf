@@ -1,0 +1,21 @@
+IF
+AreaCheck("AR5500")
+Global("JL#RupertToBSpawn2","GLOBAL",0)
+!Dead("JL#RUPRT")
+THEN
+RESPONSE #100
+SetGlobal("JL#RupertToBSpawn2","GLOBAL",1)
+CreateCreature("JL#RUPR4",[2641.1420],2)
+Continue()
+END
+
+IF
+Global("JL#RupertToBSpawn2","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("JL#RupertToBSpawn2","GLOBAL",2)
+ActionOverride("JL#RUPRT",MoveBetweenAreas("AR5501",[710.365],6))
+Continue()
+END
+
+

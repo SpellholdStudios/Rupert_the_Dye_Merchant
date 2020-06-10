@@ -1,0 +1,44 @@
+@0    = ~Rupert the Dye Merchant (for BG2 or TuTu/BGT)~
+@1    = ~Cloth dye - large~
+@2    = ~Large bottle of cloth dye~
+@3    = ~This bottle contains enchanted dye which can be used to change the colour of most regular types of clothing. The contents of this large bottle will affect the primary colour of the user's clothes. The change is permanent.~
+@4    = ~Cloth dye - small~
+@5    = ~Small bottle of cloth dye~
+@6    = ~This bottle contains enchanted dye which can be used to change the colour of most regular types of clothing. The contents of this small bottle will affect the secondary colour of the user's clothes. The change is permanent.~
+@7    = ~Leather dye~
+@8    = ~Bottle of leather dye~
+@9    = ~This bottle contains enchanted dye which can be used to change the colour of most regular types of leather. The contents of this bottle will affect the user's boots, as well as armour straps, certain parts of wizardly robes and other assorted apparel. The change is permanent.~
+@10   = ~Armour paint~
+@11   = ~Large bottle of paint~
+@12   = ~This bottle contains enchanted paint which can be used to change the colour of most types of armour. The contents of this large bottle will affect regular armour, as well as the major colour of certain wizardly robes. The change is permanent.~
+@13   = ~Detail paint~
+@14   = ~Small bottle of paint~
+@15   = ~This bottle contains enchanted paint which can be used to change the colour of small decorative objects. The contents of this small bottle will affect things like belt buckles and amulets. The change is permanent.~
+@16   = ~Hair dye~
+@17   = ~Bottle of hair dye~
+@18   = ~This bottle contains enchanted dye. It will permanently change the colour of the user's hair.~
+@19   = ~Rupert~
+@20   = ~Miss Claire Awl~
+@21   = ~Rupert's Dyes - Cloth (large)~
+@22   = ~Rupert's Dyes - Cloth (small)~
+@23   = ~Rupert's Dyes - Leather~
+@24   = ~Rupert's Dyes - Armour~
+@25   = ~Rupert's Dyes - Details~
+@26   = ~Rupert's Dyes - Hair~
+@27	= ~Rupert's Outfits~
+@28	= ~Arcanist's Apparel~
+@29	= ~This is a heavy robe in the style favoured by mages and sorcerers throughout the realms. It has multiple pockets for spell components and is specially sewn to flutter dramatically without interfering with spellcasting.
+
+To use this item, place it in a quick item slot.~
+@30	= ~Fighter's Frock~
+@31	= ~Simple clothes made from stout, sturdy fabric, made to stand up to mostly any kind of abuse. The raiment of choice for anyone whose work is sternous, dirty and prone to leave stains. The thick material also helps to prevent chafing from any armour worn over it.
+
+To use this item, place it in a quick item slot.~
+@32	= ~Cleric's Cloth~
+@33	= ~A humble garment endorsed by no less than seven out of ten clerical orders. For a nominal fee, it can be specially reinforced over the knees for lengthy prayer sessions.
+
+To use this item, place it in a quick item slot.~
+@34	= ~Rogue's Raiment~
+@35	= ~A set of plain, ulitarian and tight-fitting clothes. Specially made as to not restrict the wearer in any way while minimizing noise and the risk of snagging on a protuding nail or splinter, this outfit is popular with swashbucklers and scouts, as well as many shadier characters.
+
+To use this item, place it in a quick item slot.~

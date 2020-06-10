@@ -1,0 +1,113 @@
+IF
+  Gender(LastSummonerOf(Myself),MALE)
+  Race(LastSummonerOf(Myself),HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_MALE_HUMAN))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),MALE)
+  Race(LastSummonerOf(Myself),DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_MALE_DWARF))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),MALE)
+  Race(LastSummonerOf(Myself),HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_MALE_HALFLING))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),MALE)
+  Race(LastSummonerOf(Myself),HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_MALE_HALFORC))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),MALE)
+  Race(LastSummonerOf(Myself),GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_MALE_GNOME))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),MALE)
+  OR(3)
+  Race(LastSummonerOf(Myself),ELF)
+  Race(LastSummonerOf(Myself),HALF_ELF)
+  Race(LastSummonerOf(Myself),TIEFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_MALE_ELF))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),FEMALE)
+  Race(LastSummonerOf(Myself),HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_FEMALE_HUMAN))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),FEMALE)
+  Race(LastSummonerOf(Myself),DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_FEMALE_DWARF))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),FEMALE)
+  Race(LastSummonerOf(Myself),HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_FEMALE_HALFLING))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),FEMALE)
+  Race(LastSummonerOf(Myself),HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_FEMALE_HALFORC))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),FEMALE)
+  Race(LastSummonerOf(Myself),GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_FEMALE_GNOME))
+    DestroySelf()
+END
+
+IF
+  Gender(LastSummonerOf(Myself),FEMALE)
+  OR(3)
+  Race(LastSummonerOf(Myself),ELF)
+  Race(LastSummonerOf(Myself),HALF_ELF)
+  Race(LastSummonerOf(Myself),TIEFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(LastSummonerOf(Myself),Polymorph(THIEF_FEMALE_ELF))
+    DestroySelf()
+END
