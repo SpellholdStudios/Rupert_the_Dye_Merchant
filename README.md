@@ -40,9 +40,11 @@ Baldur's Gate Trilogy and EET<h3>
 
 ##### Version 3.0.0 (June ??, 2020)
 
+- Added `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Removed useless "*backup*" folder.
 - Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
 - Lower cased files.
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 
 ## 
 

@@ -3,6 +3,27 @@ AUTHOR ~jonalun@gmail.com~
 VERSION ~v2.1~
 README ~rupert/lang/english/readme.html~
 
+ALWAYS
+
+	/* --------------------------------------------------------------------------------------------- *
+	 *    Convert strings to UTF-8 for BGEE/BG2EE                                                    *
+	 *    No exception, everything needs to be converted                                             *
+	 * -----------------------------------------------------------------------*--------------------- */
+	ACTION_DEFINE_ARRAY jl#noconvert BEGIN END
+	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
+	ACTION_DEFINE_ARRAY jl#reload BEGIN setup END
+
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charsets = 1
+		STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/lang~
+			noconvert_array = jl#noconvert
+			reload_array = jl#reload
+	END
+
+END
+
 
 AUTO_TRA ~rupert/lang/%s~
 
@@ -10,11 +31,11 @@ LANGUAGE ~English~
          ~english~
          ~rupert/lang/english/setup.tra~
 
-LANGUAGE ~Spanish (by Lisandro)~
+LANGUAGE ~Espanol (traduccion por Lisandro)~
          ~spanish~
          ~rupert/lang/spanish/setup.tra~
 
-LANGUAGE ~Italian (by ilot)~
+LANGUAGE ~Italiano (traduzione di ilot)~
          ~italian~
          ~rupert/lang/italian/setup.tra~
 
