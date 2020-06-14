@@ -90,7 +90,6 @@ IF ~~ THEN REPLY @17 DO ~StartStore("JL#RUP_G",LastTalkedToBy())~ EXIT
 IF ~~ THEN REPLY @31 GOTO SodOff
 END
 
-
 IF ~~ THEN BEGIN WhoAreYou
 SAY @32
 =
@@ -112,9 +111,6 @@ IF ~~ THEN REPLY @2 GOTO StartShopping
 IF ~~ THEN REPLY @3 GOTO SodOff
 IF ~~ THEN REPLY @39 GOTO SodOff
 END
-
-
-
 
 IF ~~ THEN BEGIN SodOff
 SAY @40

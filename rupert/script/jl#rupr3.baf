@@ -1,11 +1,10 @@
 IF
-AreaCheck("AR5003")
-Global("JL#RupertToBSpawn","GLOBAL",0)
-!Dead("JL#RUPRT")
+	AreaCheck("AR5003")
+	Global("JL#RupertToBSpawn","GLOBAL",0)
+	!Dead("JL#RUPRT")
 THEN
-RESPONSE #100
-SetGlobal("JL#RupertToBSpawn","GLOBAL",1)
-CreateCreature("JL#RUPR3",[870.547],15)
-Continue()
+	RESPONSE #100
+		SetGlobal("JL#RupertToBSpawn","GLOBAL",1)
+		CreateCreature("JL#RUPR3",[870.547],15)
+		Continue()
 END
-

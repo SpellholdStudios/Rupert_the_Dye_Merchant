@@ -1,8 +1,8 @@
 IF
-  Gender(Myself,FEMALE)
-  Global("JL#CheckEdwinsGender","GLOBAL",0)
+	Gender(Myself,FEMALE)
+	Global("JL#CheckEdwinsGender","GLOBAL",0)
 THEN
-  RESPONSE #100
-    SetGlobal("JL#CheckEdwinsGender","GLOBAL",1)
-    Continue()
+	RESPONSE #100
+		SetGlobal("JL#CheckEdwinsGender","GLOBAL",1)
+		Continue()
 END
