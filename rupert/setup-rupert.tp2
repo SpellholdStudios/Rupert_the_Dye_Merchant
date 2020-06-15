@@ -113,7 +113,9 @@ LANGUAGE ~Russian (Translation by the BWP Russian Textpack team)~
 /* ============================= *
  *    Rupert the Dye Merchant    *
  * ============================= */
-BEGIN @0 
+BEGIN @0
+DESIGNATED 0 LABEL "rupert_the_dye_merchant"
+REQUIRE_PREDICATE GAME_IS ~bg1 tob tutu tutu_totsc bgt bgee bg2ee eet~ @101	// ~You must have BG2, ToB, Tutu, BGT, BG:EE, SoD, BG2:EE or EET installed to install Rupert the Dye Merchant mod.~
 
 /* --------------------------------- *
  *  Copy BAMs or convert them to EE  *
@@ -146,7 +148,7 @@ COPY ~rupert/itm/large~ ~override~
 	SAY DESC @103
 
 COPY ~rupert/itm/small~ ~override~
-	SAY NAME1 @104 
+	SAY NAME1 @104
 	SAY NAME2 @105
 	SAY DESC @106
 
@@ -223,11 +225,11 @@ ACTION_IF ("%FriendlyArmInn_L2%" STR_CMP "none") BEGIN
 		// if it doesn't exist, give it a default name
 		PATCH_IF ("%script%" STRING_EQUAL_CASE ~~ OR "%script%" STRING_EQUAL_CASE ~none~ OR !FILE_EXISTS_IN_GAME ~%script%.bcs~) BEGIN
 			WRITE_ASCIIE AREA_SCRIPT ~%FriendlyArmInn_L2_BCS%~ #8
-		END 
+		END
 	BUT_ONLY
 	EXTEND_TOP ~%FriendlyArmInn_L2_BCS%.bcs~ ~rupert/script/jl#ruprt.baf~ EVALUATE_BUFFER
 END
-    
+
 // BG2 content (Mithrest Inn)
 // --------------------------
 ACTION_IF ("%MithrestInn%" STR_CMP "none") BEGIN
@@ -260,7 +262,7 @@ ACTION_IF ("%SaradushTavern%" STR_CMP "none") BEGIN
 			// if it doesn't exist, give it a default name
 			PATCH_IF ("%script%" STRING_EQUAL_CASE ~~ OR "%script%" STRING_EQUAL_CASE ~none~ OR !FILE_EXISTS_IN_GAME ~%script%.bcs~) BEGIN
 				WRITE_ASCIIE AREA_SCRIPT ~AR5501~ #8
-			END 
+			END
 		BUT_ONLY
 		EXTEND_TOP ~ar5501.bcs~ ~rupert/script/jl#rupr4.baf~
 END
@@ -283,7 +285,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_a.sto~
 			END ELSE BEGIN
 				SPRINT dye EVAL "JL#PA%i%"
 			END
-		END		
+		END
 		PATCH_IF (previous < 10) BEGIN
 			SPRINT dye_bef EVAL "JL#PA00%previous%"
 		END ELSE BEGIN
@@ -292,7 +294,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_a.sto~
 			END ELSE BEGIN
 				SPRINT dye_bef EVAL "JL#PA%previous%"
 			END
-		END		
+		END
 		ADD_STORE_ITEM ~%dye%~ AFTER ~%dye_bef%~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 	END
 BUT_ONLY
@@ -311,7 +313,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_b.sto~
 			END ELSE BEGIN
 				SPRINT dye EVAL "JL#PB%i%"
 			END
-		END		
+		END
 		PATCH_IF (previous < 10) BEGIN
 			SPRINT dye_bef EVAL "JL#PB00%previous%"
 		END ELSE BEGIN
@@ -320,7 +322,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_b.sto~
 			END ELSE BEGIN
 				SPRINT dye_bef EVAL "JL#PB%previous%"
 			END
-		END		
+		END
 		ADD_STORE_ITEM ~%dye%~ AFTER ~%dye_bef%~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 	END
 BUT_ONLY
@@ -339,7 +341,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_c.sto~
 			END ELSE BEGIN
 				SPRINT dye EVAL "JL#PC%i%"
 			END
-		END		
+		END
 		PATCH_IF (previous < 10) BEGIN
 			SPRINT dye_bef EVAL "JL#PC00%previous%"
 		END ELSE BEGIN
@@ -348,7 +350,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_c.sto~
 			END ELSE BEGIN
 				SPRINT dye_bef EVAL "JL#PC%previous%"
 			END
-		END		
+		END
 		ADD_STORE_ITEM ~%dye%~ AFTER ~%dye_bef%~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 	END
 BUT_ONLY
@@ -367,7 +369,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_d.sto~
 			END ELSE BEGIN
 				SPRINT dye EVAL "JL#PD%i%"
 			END
-		END		
+		END
 		PATCH_IF (previous < 10) BEGIN
 			SPRINT dye_bef EVAL "JL#PD00%previous%"
 		END ELSE BEGIN
@@ -376,7 +378,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_d.sto~
 			END ELSE BEGIN
 				SPRINT dye_bef EVAL "JL#PD%previous%"
 			END
-		END		
+		END
 		ADD_STORE_ITEM ~%dye%~ AFTER ~%dye_bef%~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 	END
 BUT_ONLY
@@ -396,7 +398,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_e.sto~
 			END ELSE BEGIN
 				SPRINT dye EVAL "JL#PE%i%"
 			END
-		END		
+		END
 		PATCH_IF (previous < 10) BEGIN
 			SPRINT dye_bef EVAL "JL#PE00%previous%"
 		END ELSE BEGIN
@@ -405,7 +407,7 @@ COPY ~rupert/sto/jl#ruprt.sto~ ~override/jl#rup_e.sto~
 			END ELSE BEGIN
 				SPRINT dye_bef EVAL "JL#PE%previous%"
 			END
-		END		
+		END
 		ADD_STORE_ITEM ~%dye%~ AFTER ~%dye_bef%~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 	END
 BUT_ONLY
@@ -424,7 +426,7 @@ COPY ~rupert/sto/Jl#ruprt.sto~ ~override/jl#rup_f.sto~
 			END ELSE BEGIN
 				SPRINT dye EVAL "JL#PF%i%"
 			END
-		END		
+		END
 		PATCH_IF (previous < 10) BEGIN
 			SPRINT dye_bef EVAL "JL#PF00%previous%"
 		END ELSE BEGIN
@@ -433,7 +435,7 @@ COPY ~rupert/sto/Jl#ruprt.sto~ ~override/jl#rup_f.sto~
 			END ELSE BEGIN
 				SPRINT dye_bef EVAL "JL#PF%previous%"
 			END
-		END		
+		END
 		ADD_STORE_ITEM ~%dye%~ AFTER ~%dye_bef%~ #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 	END
 BUT_ONLY
