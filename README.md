@@ -167,7 +167,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Added `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added `REQUIRE_PREDICATE` conditions to avoid installing the mod in inaccurate games.
 - Added component `DESIGNATED` number and "*rupert_the_dye_merchant*" `LABEL`.
-- Added native BG2:EE and EET compatibility.
+- Added native BG:EE, BG2:EE and EET compatibility.
 - Commented code as much as possible.
 - Rewrote store patching process.
 - Simplified Rupert spawning and script `EXTEND_TOP` process with cross-platforms tutu variables.
@@ -178,7 +178,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Added Russian translation (BWP Russian Textpack team).
 - Restored German translation.
 - Fixed typos in English .tra files.
-- Re-formated, updated, renamed readme file to *rupert-readme-english.html*, then moved it into new "*readme*" folder.
+- Re-formated, updated and renamed readme file to *rupert-readme-english.html*, then moved it into new "*readme*" folder.
 - Removed useless useless files and "*backup*" folder.
 - Reorganized mod architecture tree: created or renamed folders to sort files according to their types.
 - Lower cased files.
