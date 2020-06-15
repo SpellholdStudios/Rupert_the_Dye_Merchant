@@ -2,9 +2,9 @@ BACKUP ~rupert/backup~
 //AUTHOR ~jonalun@gmail.com~
 SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-v300/~
 
-VERSION ~v2.1~
+VERSION ~v3.0.0~
 
-README ~rupert/readme/rupert-readme-english.html.html~
+README ~rupert/readme/rupert-readme-english.html~
 
 ALWAYS
 
@@ -83,7 +83,7 @@ ALWAYS
 
 	END
 
-END
+END // of ALWAYS block
 
 
 AUTO_TRA ~rupert/lang/%s~
@@ -118,7 +118,7 @@ LANGUAGE ~Russian (Translation by the BWP Russian Textpack team)~
  * ============================= */
 BEGIN @0
 DESIGNATED 0 LABEL "rupert_the_dye_merchant"
-REQUIRE_PREDICATE GAME_IS ~bg1 tob tutu tutu_totsc bgt bgee bg2ee eet~ @101	// ~You must have BG2, ToB, Tutu, BGT, BG:EE, SoD, BG2:EE or EET installed to install Rupert the Dye Merchant mod.~
+REQUIRE_PREDICATE GAME_IS ~bg2 tob tutu tutu_totsc bgt bgee bg2ee eet~ @101	// ~You must have BG2, ToB, Tutu, BGT, BG:EE, SoD, BG2:EE or EET installed to install Rupert the Dye Merchant mod.~
 
 /* --------------------------------- *
  *  Copy BAMs or convert them to EE  *

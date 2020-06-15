@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
-<div align="center"><h1></a>Rupert the Dye Merchant (WIP)</h1>
+<div align="center"><h1></a>Rupert the Dye Merchant</h1>
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II and ToB (classical and EE games),<br>
 BG:EE, SoD Tutu, Baldur's Gate Trilogy and EET<h3>
@@ -159,7 +159,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### Version 3.0.0 (June ??, 2020)
+##### Version 3.0.0 (June 16, 2020)
 
 - Added *rupert.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-rupert.tp2* -> *rupert.tp2* to support AL|EN's "Project Infinity".
