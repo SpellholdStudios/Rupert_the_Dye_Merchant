@@ -1,0 +1,3 @@
+- Add new dyes (gradients 116 to 255) if 1PP or EE game is detected.
+- Turn stores parching into a function.
+- Give Rupert and Claire a portrait???
