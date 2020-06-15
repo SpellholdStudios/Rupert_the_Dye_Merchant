@@ -1,23 +1,22 @@
 IF
-AreaCheck("FW2302")
-Global("JL#RupertBG1Spawn","GLOBAL",0)
+	AreaCheck("%FriendlyArmInn_L2%")
+	Global("JL#RupertBG1Spawn","GLOBAL",0)
 THEN
-RESPONSE #100
-SetGlobal("JL#RupertBG1Spawn","GLOBAL",1)
-CreateCreature("JL#RUPRT",[500.530],14)
-Continue()
+	RESPONSE #100
+	SetGlobal("JL#RupertBG1Spawn","GLOBAL",1)
+	CreateCreature("JL#RUPRT",[500.530],14)
+	Continue()
 END
 
-
-
+/* DEPRECATED as of v3.0.0
 IF
-AreaCheck("AR6800")
-Global("JL#RupertBG1Spawn","GLOBAL",0)
+	AreaCheck("AR6800")
+	Global("JL#RupertBG1Spawn","GLOBAL",0)
 THEN
-RESPONSE #100
-SetGlobal("JL#RupertBG1Spawn","GLOBAL",1)
-CreateCreature("JL#RUPRT",[500.530],14)
-ActionOverride("JL#RUPRT",MoveBetweenAreas("AR6802",[500.530],6))
-Continue()
+	RESPONSE #100
+		SetGlobal("JL#RupertBG1Spawn","GLOBAL",1)
+		CreateCreature("JL#RUPRT",[500.530],14)
+		ActionOverride("JL#RUPRT",MoveBetweenAreas("AR6802",[500.530],6))
+		Continue()
 END
-
+*/
