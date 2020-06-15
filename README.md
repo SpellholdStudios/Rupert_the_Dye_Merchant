@@ -110,7 +110,7 @@ Extract the contents of the mod to the folder of the game you wish to modify.
 
 Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
-To install, run **`weinstall setup-rupert`** in your game folder. Then run **`wine BGMain.exe`** (or **`&nbsp;wine Baldur.exe`** for EE games) and start playing.
+To install, run **`weinstall setup-rupert`** in your game folder. Then run **`wine BGMain.exe`** (or **`wine Baldur.exe`** for EE games) and start playing.
 
 ## 
 
