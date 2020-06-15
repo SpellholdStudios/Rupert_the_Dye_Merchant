@@ -89,6 +89,10 @@ LANGUAGE ~English~
          ~english~
          ~rupert/lang/english/setup.tra~
 
+LANGUAGE ~Deutsch (Uebersetzung von Meresin)~
+         ~german~
+         ~rupert/lang/german/setup.tra~
+
 LANGUAGE ~Espanol (traduccion por Lisandro)~
          ~spanish~
          ~rupert/lang/spanish/setup.tra~
@@ -96,6 +100,14 @@ LANGUAGE ~Espanol (traduccion por Lisandro)~
 LANGUAGE ~Italiano (traduzione di ilot)~
          ~italian~
          ~rupert/lang/italian/setup.tra~
+
+LANGUAGE ~Francais (Traduction : Gwendolyne)~
+         ~french~
+         ~rupert/lang/french/setup.tra~
+
+LANGUAGE ~Russian (Translation by the BWP Russian Textpack team)~
+         ~russian~
+         ~rupert/lang/russian/setup.tra~
 
 
 /* ============================= *

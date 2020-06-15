@@ -1,0 +1,173 @@
+@0   = ~Rupert le vendeur de teintures~
+@1   = ~Ce mod ne fonctionne que sur BG2, ToB, Tutu, BGT, BG:EE, SoD, BG2:EE ou EET.~
+
+@21  = ~Il faut fusionner SoD avant de pouvoir installer des mods sur ce jeu. Consultez le readme pour plus d'informations et pour trouver un lien pour telecharger DLC Merger ou Modmerge.~
+@22  = ~Une installation de BG1Tutu a ete detecte.~
+@23  = ~Une installation de BGT a ete detecte.~
+@24  = ~Une installation de Baldur's Gate Enhanced Edition a ete detecte.~
+@25  = ~Une installation de Enhanced Edition Trilogy a ete detecte.~
+@26  = ~Une installation de Trone de Bhaal a ete detecte.~
+
+/* -------- *
+ *   Dyes   *
+ * -------- */
+@101 = ~Teinture pour tissu - grand format~
+@102 = ~Grand flacon de teinture pour tissu~
+@103 = ~Cette bouteille contient une teinture enchantée que l'on peut utiliser pour changer la couleur de la plupart des vêtements ordinaires. Le contenu de cette grande bouteille affectera la couleur principale des vêtements de l'utilisateur. Le changement est permanent.~
+
+@104 = ~Teinture pour tissu - petit format~
+@105 = ~Petit flacon de teinture pour tissu~
+@106 = ~Cette bouteille contient une teinture enchantée que l'on peut utiliser pour changer la couleur de la plupart des vêtements ordinaires. Le contenu de cette petite bouteille affectera la couleur secondaire des vêtements de l'utilisateur. Le changement est permanent.~
+
+@107 = ~Teinture pour cuir~
+@108 = ~Bouteille de teinture pour le cuir~
+@109 = ~Cette bouteille contient une teinture enchantée que l'on peut utiliser pour changer la couleur de la plupart des cuirs ordinaires. Le contenu de cette bouteille affectera les bottes de l'utilisateur, ainsi que les courroies d'armure, certaines parties des robes de magicien et d'autres vêtements de toutes sortes. Le changement est permanent.~
+
+@110 = ~Peinture pour armure~
+@111 = ~Grand flacon de peinture~
+@112 = ~Cette bouteille contient de la peinture enchantée que l'on peut utiliser pour modifier la couleur de la plupart des types d'armure. Le contenu de cette bouteille affectera les armures ordinaires, ainsi que la couleur principale de certaines robes de magicien. Le changement est permanent.~
+
+@113 = ~Peinture pour accessoires~
+@114 = ~Petit flacon de peinture~
+@115 = ~Cette bouteille contient de la peinture enchantée que l'on peut utiliser pour changer la couleur de petits objets décoratifs. Le contenu de cette petite bouteille affectera des objets comme les boucles de ceinture et les amulettes. Le changement est permanent.~
+@113 = ~Peinture de détail~
+
+@116 = ~Coloration capillaire~
+@117 = ~Flacon de coloration capillaire~
+@118 = ~Cette bouteille contient un colorant enchanté qui changera de manière permanente la couleur des cheveux de celui qui l'utilise.~
+
+/* ------------- *
+ *   Créatures   *
+ * ------------- */
+@119 = ~Rupert~
+@120 = ~Mademoiselle Laure Héal~
+
+/* ------------- *
+ *   Boutiques   *
+ * ------------- */
+@121 = ~Teintures de Rupert pour tissu (grand format)~
+@122 = ~Teintures de Rupert pour tissu (petit format)~
+@123 = ~Teintures de Rupert pour cuir~
+@124 = ~Teintures de Rupert pour armures~
+@125 = ~Teintures de Rupert pour accessoires~
+@126 = ~Teintures de Rupert pour cheveux~
+@127 = ~Tenues de Rupert~
+
+/* ---------- *
+ *   Habits   *
+ * ---------- */
+@128 = ~Habits de l'arcaniste~
+@129 = ~Il s'agit d'une robe imposante, comme celles que préfèrent porter les mages et les sorciers à travers les Royaumes. Elle comporte de nombreuses poches pour y ranger des composants de sorts et a été spécialement taillée pour virevolter de façon spectaculaire sans gêner l'incantation de sortilèges.
+
+Utilisation : la placer dans les Objets rapides.~
+
+@130 = ~Robe du combattant~
+@131 = ~Ce vêtement sans artifice taillé dans un tissu solide et résistant a été conçu pour résister à la plupart des mauvais traitements imaginables. C'est une tenue de choix pour toute personne accomplissant un travail pénible, sale et susceptible de produire des taches. Le tissu épais permet également d'éviter les irritations provoquées par les armures portées par-dessus.
+
+Utilisation : la placer dans les Objets rapides.~
+
+@132 = ~Étoffe du clerc~
+@133 = ~Il s'agit d'un modeste vêtement approuvé par pas moins de sept ordres cléricaux sur dix. Pour une somme modique, il peut être spécialement renforcé au-dessus des genoux pour les longues séances de prière.
+
+Utilisation : la placer dans les Objets rapides.~
+
+@134 = ~Vêtement du roublard~
+@135 = ~Il s'agit d'un ensemble de vêtements civils, fonctionnels et bien ajustés. Spécialement conçue pour ne pas gêner celui qui la porte tout en restant le plus silencieux possible et en minimisant les risques de s'accrocher à un ongle ou à une écharde protubérante, cette tenue est très appréciée des bretteurs et des éclaireurs, ainsi que de nombreux individus plus louches.
+
+Utilisation : le placer dans les Objets rapides.~
+
+
+// WeiDU prompts
+// -------------
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "
