@@ -5,20 +5,20 @@
 
 <div align="center"><h1></a>Rupert the Dye Merchant (WIP)</h1>
 
-<h3>A mod hosted by Spellhold Studios for Baldur's Gate II and ToB (classical and EE games),
-Tutu, Baldur's Gate Trilogy, BG:EE, SoD and EET<h3>
+<h3>A mod hosted by Spellhold Studios for Baldur's Gate II and ToB (classical and EE games),<br>
+BG:EE, SoD Tutu, Baldur's Gate Trilogy and EET<h3>
 
 </div><br />
 
 
 **Original Author:** vilkacis  
 **Mod Website:** <a href="http://www.shsforums.net/forum/234-miscellaneous-released-mods/">Spellhold Studios</a>  
-**Mod Forum:** <a href="http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-version-300/">Rupert the Dye Merchant</a>  
+**Mod Forum:** <a href="http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-v300/">Rupert the Dye Merchant</a>  
 
 
 [Read the mod's readme](https://spellholdstudios.github.io/readmes/rupert-readme-english.html)
 
-[Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/153-rupert-the-dye-merchant-v211/)<br>
+[Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/153-rupert-the-dye-merchant/)<br>
 
 &nbsp;
 
@@ -110,7 +110,7 @@ Extract the contents of the mod to the folder of the game you wish to modify.
 
 Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
-To install, run **`weinstall setup-rupert`** in your game folder. Then run **`wine BGMain.exe`** and start playing.
+To install, run **`weinstall setup-rupert`** in your game folder. Then run **`wine BGMain.exe`** (or **`&nbsp;wine Baldur.exe`** for EE games) and start playing.
 
 ## 
 
@@ -140,7 +140,7 @@ In addition to the methods above for removing individual components, you can com
 - Meresin: German translation.
 - AL|EN: Wrote <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">Infinity Auto Packager</a> tool which automatically provides Windows, Linux and Mac versions in the same archive file.
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-version-300/">mod forum</a>.</br>
+If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-v300/">mod forum</a>.</br>
 
 ## 
 
@@ -198,7 +198,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 ##### Version 2.1 (March 19, 2010)
 
 - Added Spanish translation by Lisandro.
-- Fixed a gnome-related typo in the code (thanks <a href="http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-version-211/page-3#entry472779">Lollorian</a>).
+- Fixed a gnome-related typo in the code (thanks <a href="http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-v300/page-3#entry472779">Lollorian</a>).
 
 ## 
 
@@ -212,7 +212,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ##### Version 1.1 (November 25, 2009)
 
-- Included <a href="http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-version-211/page-3#entry463770">Miloch's .bam and .itm fixes</a>.
+- Included <a href="http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-v300/page-3#entry463770">Miloch's .bam and .itm fixes</a>.
 - Traified the mod.
 - Added German translation by Meresin.
 - Changed to `README` command.

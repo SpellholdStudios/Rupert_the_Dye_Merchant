@@ -1,6 +1,9 @@
 BACKUP ~rupert/backup~
-AUTHOR ~jonalun@gmail.com~
+//AUTHOR ~jonalun@gmail.com~
+SUPPORT ~Spellhold Studios at http://www.shsforums.net/topic/24786-rupert-the-dye-merchant-v300/~
+
 VERSION ~v2.1~
+
 README ~rupert/lang/english/readme.html~
 
 ALWAYS
